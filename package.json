@@ -1,0 +1,23 @@
+{
+  "name": "@psychedcms/admin-shortcode",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "peerDependencies": {
+    "@psychedcms/admin-core": ">=0.1.0",
+    "react": "^19.0.0",
+    "react-admin": "^5.0.0",
+    "react-dom": "^19.0.0",
+    "@mui/material": ">=6.0.0",
+    "@mui/icons-material": ">=6.0.0",
+    "@tiptap/core": "^2.0.0",
+    "@tiptap/react": "^2.0.0",
+    "ra-input-rich-text": "^5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "ra-input-rich-text": {
+      "optional": true
+    }
+  }
+}
