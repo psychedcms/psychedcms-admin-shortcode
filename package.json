@@ -19,5 +19,15 @@
     "ra-input-rich-text": {
       "optional": true
     }
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psychedcms/psychedcms-admin-shortcode.git"
+  },
+  "files": [
+    "src"
+  ]
 }
